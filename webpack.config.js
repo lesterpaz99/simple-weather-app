@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -33,7 +32,6 @@ module.exports = {
 			inject: 'body',
 			filename: 'index.html',
 		}),
-		,
 		new MiniCssExtractPlugin(),
 	],
 	devServer: {
